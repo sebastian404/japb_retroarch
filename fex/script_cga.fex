@@ -202,16 +202,16 @@ lcd_pwm_ch = 0
 lcd_pwm_freq = 10000
 lcd_pwm_pol = 0
 lcd_if = 0
-lcd_hbp = 110
-lcd_ht = 564
-lcd_vbp = 22
-lcd_vt = 522
+lcd_hbp = 98
+lcd_ht = 510
+lcd_vbp = 20
+lcd_vt = 524
 lcd_hv_if = 0
 lcd_hv_smode = 0
 lcd_hv_s888_if = 0
 lcd_hv_syuv_if = 0
-lcd_hv_vspw = 5
-lcd_hv_hspw = 40
+lcd_hv_vspw = 2
+lcd_hv_hspw = 38
 lcd_lvds_ch = 0
 lcd_lvds_mode = 0
 lcd_lvds_bitwidth = 0
@@ -263,7 +263,7 @@ lcdhsync = port:PD26<2><0><default><default>
 lcdvsync = port:PD27<2><0><default><default>
 
 [tv_out_dac_para]
-dac_used = 0
+dac_used = 1
 dac0_src = 0
 
 [hdmi_para]
