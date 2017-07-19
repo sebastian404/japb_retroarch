@@ -1,0 +1,11 @@
+--- kernel.org/drivers/video/sunxi/disp/dev_fb.c	2017-06-28 13:06:16.429165551 -0700
++++ kernel.new/drivers/video/sunxi/disp/dev_fb.c	2017-07-08 07:34:20.410195007 -0700
+@@ -1071,7 +1071,7 @@
+ 		}
+ 	}
+ 
+-	// Fb_wait_for_vsync(info);
++	Fb_wait_for_vsync(info);
+ 
+ 	return 0;
+ }

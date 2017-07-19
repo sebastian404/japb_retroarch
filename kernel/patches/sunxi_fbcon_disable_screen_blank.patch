@@ -1,0 +1,11 @@
+--- kernel.org/drivers/tty/vt/vt.c	2017-06-28 13:06:16.333165552 -0700
++++ kernel.new/drivers/tty/vt/vt.c	2017-06-29 15:52:31.998051985 -0700
+@@ -176,7 +176,7 @@
+ 
+ static int vesa_blank_mode; /* 0:none 1:suspendV 2:suspendH 3:powerdown */
+ static int vesa_off_interval;
+-static int blankinterval = 10*60;
++static int blankinterval = 0;
+ core_param(consoleblank, blankinterval, int, 0444);
+ 
+ static DECLARE_WORK(console_work, console_callback);

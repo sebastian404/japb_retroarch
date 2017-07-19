@@ -1,0 +1,33 @@
+diff -Naurp kernel.org/drivers/video/console/bitblit.c kernel.new/drivers/video/console/bitblit.c
+--- kernel.org/drivers/video/console/bitblit.c	2017-06-28 13:06:16.397165551 -0700
++++ kernel.new/drivers/video/console/bitblit.c	2017-06-29 15:59:24.298038662 -0700
+@@ -383,6 +383,9 @@ static void bit_cursor(struct vc_data *v
+ 	if (info->fbops->fb_cursor)
+ 		err = info->fbops->fb_cursor(info, &cursor);
+ 
++	// Disable Cursor
++	err = 0;
++
+ 	if (err)
+ 		soft_cursor(info, &cursor);
+ 
+diff -Naurp kernel.org/drivers/video/console/fbcon.c kernel.new/drivers/video/console/fbcon.c
+--- kernel.org/drivers/video/console/fbcon.c	2017-06-28 13:06:16.397165551 -0700
++++ kernel.new/drivers/video/console/fbcon.c	2017-06-29 15:59:24.298038662 -0700 
+@@ -410,6 +410,8 @@ static void cursor_timer_handler(unsigne
+ 
+ static void fbcon_add_cursor_timer(struct fb_info *info)
+ {
++// Disable cursor
++#if 0
+ 	struct fbcon_ops *ops = info->fbcon_par;
+ 
+ 	if ((!info->queue.func || info->queue.func == fb_flashcursor) &&
+@@ -425,6 +427,7 @@ static void fbcon_add_cursor_timer(struc
+ 		add_timer(&ops->cursor_timer);
+ 		ops->flags |= FBCON_FLAGS_CURSOR_TIMER;
+ 	}
++#endif
+ }
+ 
+ static void fbcon_del_cursor_timer(struct fb_info *info)
