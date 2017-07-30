@@ -32,11 +32,15 @@ Nintendo
 * snes9x2010_libretro
 * snes9x_libretro
 
+NEC
+* beetle-pce-fast-libretro
+* beetle-supergrafx-libretro
+
 
 ## Disclaimer
 I am not responsible for any damage to your hardware as a result of using this file, it has been tested as much as possible but your on your own if your house catches fire, your dog dies or your Uncle who works for Nintendo touched you in a bad place.
 
-As this port uses both NEON and Mali cores inside the A13 chip it does get a lot warmer than in normal operation, I strongly recommend you install a passive heat sink if you plan on using it for an extended amount of time.
+As this port uses both NEON and Mali cores inside the A13 chip it does get a lot warmer than in 'normal' operation, I strongly recommend you install a passive heat sink if you plan on using it for an extended amount of time.
 
 
 ## Installation Instructions
@@ -58,4 +62,5 @@ GSG.GME.R3.92C![GSG.GME.R3.92C](https://github.com/sebastian404/aus_pb4_doom/raw
 
 ## Credits
 RetroArch is of course based on [RetroArch](https://github.com/libretro/RetroArch)
+
 The joystick driver is based on the gamecon_gpio_rpi driver by [marqs](https://github.com/marqs85)
