@@ -54,14 +54,6 @@ else
    REPO_BASE="git://github.com"
 fi
 
-# base
-fetch_project "$REPO_BASE/libretro/RetroArch.git" "retroarch" "libretro/RetroArch"
-fetch_subprojects "$REPO_BASE/libretro/common-shaders.git" "retroarch" "media" "shaders" "libretro/common-shaders"
-fetch_subprojects "$REPO_BASE/libretro/common-overlays.git" "retroarch" "media" "overlays" "libretro/common-overlays"
-fetch_subprojects "$REPO_BASE/libretro/retroarch-assets.git" "retroarch" "media" "assets" "libretro/retroarch-assets"
-fetch_subprojects "$REPO_BASE/libretro/libretro-database.git" "retroarch" "media" "database" "libretro/retroarch-database"
-fetch_subprojects "$REPO_BASE/libretro/libretro-core-info.git" "retroarch" "media" "core-info" "libretro/retroarch-core-info"
-
 # atari
 fetch_project "$REPO_BASE/libretro/libretro-atari800.git" "libretro-atari800" "libretro/atari800"
 fetch_project "$REPO_BASE/libretro/prosystem-libretro.git" "libretro-prosystem" "libretro/prosystem"
@@ -71,7 +63,6 @@ fetch_project "$REPO_BASE/libretro/stella-libretro.git" "libretro-stella" "libre
 fetch_project "$REPO_BASE/libretro/QuickNES_Core.git" "libretro-quicknes" "libretro/QuickNES"
 fetch_project "$REPO_BASE/libretro/nestopia.git" "libretro-nestopia" "libretro/Nestopia"
 fetch_project "$REPO_BASE/libretro/libretro-fceumm.git" "libretro-fceumm" "libretro/FCEUmm"
-
 fetch_project "$REPO_BASE/libretro/snes9x.git" "libretro-snes9x" "libretro/SNES9x"
 fetch_project "$REPO_BASE/libretro/snes9x2002.git" "libretro-snes9x2002" "libretro/SNES9x2002"
 fetch_project "$REPO_BASE/libretro/snes9x2005.git" "libretro-snes9x2005" "libretro/SNES9x2005"

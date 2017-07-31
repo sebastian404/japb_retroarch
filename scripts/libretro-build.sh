@@ -24,7 +24,6 @@ build_project()
    echo "=== done ==="
 }
 
-
 # atari
 build_project "libretro-atari800" "." "Makefile" ""
 build_project "libretro-prosystem" "." "Makefile" ""
@@ -57,9 +56,8 @@ build_project "libretro-fbalpha2012_cps3" "svn-current/trunk" "makefile.libretro
 
 
 # MAME
-#build_project "$REPO_BASE/libretro/mame.git" "libretro-mame" "libretro/mame"
-#build_project "$REPO_BASE/libretro/mame2014-libretro.git" "libretro-mame2014" "libretro/mame2014"
-
+build_project "libretro-mame" "." "Makefile" ""
+build_project "libretro-mame2014" "." "Makefile" ""
 build_project "libretro-mame2000" "." "Makefile" "ARM=1 USE_CYCLONE=1 USE_DRZ80=1"
 build_project "libretro-mame2003" "." "Makefile" ""
 build_project "libretro-mame2003_midway" "." "Makefile" ""
