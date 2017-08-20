@@ -3,15 +3,15 @@ This is an unofficial port of Retroarch to the AUS Just Another Pandora's Box ha
 
 
 ## Introduction
-This is a port of [RetroArch](https://github.com/libretro/RetroArch)
+This is a port of [RetroArch](https://github.com/libretro/RetroArch) v1.67
 
 The imgage comes bundled with the following cores:
 
 Arcade
+* fbalpha2012_libretro
 * fbalpha2012_cps1_libretro
 * fbalpha2012_cps2_libretro
 * fbalpha2012_cps3_libretro
-* fbalpha2012_libretro
 * fbalpha2012_neogeo_libretro
 * fbalpha_libretro
 * mame2000_libretro
@@ -21,10 +21,16 @@ Arcade
 * mame2014_libretro
 * mame_libretro
 
+Atari
+* atari800_libretro
+* prosystem_libretro
+* stella_libretro
+
 Sega
 * genesis_plus_gx_libretro
 
 Nintendo
+* fceumm_libretro
 * nestopia_libretro
 * quicknes_libretro
 * snes9x2002_libretro
