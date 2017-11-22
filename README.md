@@ -3,7 +3,7 @@ This is an unofficial port of Retroarch to the AUS Just Another Pandora's Box ha
 
 
 ## Introduction
-This is a port of [RetroArch](https://github.com/libretro/RetroArch) v1.67
+This is a port of [RetroArch](https://github.com/libretro/RetroArch) v1.69
 
 The imgage comes bundled with the following cores:
 

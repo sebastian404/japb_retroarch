@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.169
+- Upgrade RetroArch to Version 0.169
+- Enabled Swap in Kernel for Emulation Station performance
+
+
 ## 0.167
 - Upgrade RetroArch to Version 0.167
 - Added cores
