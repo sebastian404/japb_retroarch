@@ -62,8 +62,11 @@ It is often referred to as ‘Just another Pandora’s Box’, and sold under th
 
 The hardware is all fairly similar, however this version has only been tested as working on the 87 and the 92C version.
 
-GSG.GME.R3.87![GSG.GME.R3.87](https://github.com/sebastian404/aus_pb4_doom/raw/master/media/SG.GME.R3.87.jpg)
-GSG.GME.R3.92C![GSG.GME.R3.92C](https://github.com/sebastian404/aus_pb4_doom/raw/master/media/SG.GME.R3.92C.jpg)
+SG.GME.R3.87![SG.GME.R3.87](https://raw.githubusercontent.com/sebastian404/aus_japb_doom/master/media/SG.GME.R3.87.jpg)
+
+SG.GME.R3.87L-17![SG.MGE.R3.87L-17](https://raw.githubusercontent.com/sebastian404/aus_japb_doom/master/media/SG.GME.R3.87L-17.jpg)
+
+SG.GME.R3.92C![SG.GME.R3.92C](https://raw.githubusercontent.com/sebastian404/aus_japb_doom/master/media/SG.GME.R3.92C.jpg)
 
 
 ## Credits
