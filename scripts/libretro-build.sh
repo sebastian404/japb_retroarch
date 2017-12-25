@@ -41,6 +41,7 @@ build_project "libretro-snes9x2010" "." "Makefile.libretro" ""
 
 #Sega
 build_project "libretro-genesis_plus_gx" "." "Makefile.libretro" ""
+build_project "libretro-picodrive" "." "Makefile.libretro" "platform=armv ARM_ASM=1"
 
 #NEC
 build_project "libretro-mednafen_pce_fast" "." "Makefile" ""

@@ -70,6 +70,7 @@ fetch_project "$REPO_BASE/libretro/snes9x2010.git" "libretro-snes9x2010" "libret
 
 #Sega
 fetch_project "$REPO_BASE/libretro/Genesis-Plus-GX.git" "libretro-genesis_plus_gx" "libretro/Genplus GX"
+fetch_project_submodule "$REPO_BASE/libretro/picodrive.git" "libretro-picodrive" "libretro/picodrive"
 
 #NEC
 fetch_project "$REPO_BASE/libretro/beetle-pce-fast-libretro.git" "libretro-mednafen_pce_fast" "libretro/Beetle PCE Fast"

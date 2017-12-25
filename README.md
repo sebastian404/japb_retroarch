@@ -3,7 +3,7 @@ This is an unofficial port of Retroarch to the AUS Just Another Pandora's Box ha
 
 
 ## Introduction
-This is a port of [RetroArch](https://github.com/libretro/RetroArch) v1.69
+This is a port of [RetroArch](https://github.com/libretro/RetroArch) v1.70
 
 The imgage comes bundled with the following cores:
 
@@ -28,6 +28,7 @@ Atari
 
 Sega
 * genesis_plus_gx_libretro
+* picodrive_libretro
 
 Nintendo
 * fceumm_libretro

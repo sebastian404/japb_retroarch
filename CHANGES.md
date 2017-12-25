@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.170
+- Upgrade RetroArch to Version 0.170
+- Add cores
+  - picodrive_libretro
+
+
 ## 0.169
 - Upgrade RetroArch to Version 0.169
 - Enabled Swap in Kernel for Emulation Station performance
